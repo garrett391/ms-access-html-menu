@@ -1,0 +1,4 @@
+﻿CREATE TABLE [Carriers] (
+  [CarrierID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [Carrier] VARCHAR (255)
+)

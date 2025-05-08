@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "BandwidthUnitsBids",
+    "Attributes": 0,
+    "Table": "BandwidthUnits",
+    "ForeignTable": "Bids",
+    "Fields": [
+      {
+        "Name": "BandwidthUnitID",
+        "ForeignName": "BandwidthUnitID"
+      }
+    ]
+  }
+}

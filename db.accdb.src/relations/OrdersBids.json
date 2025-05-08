@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "OrdersBids",
+    "Attributes": 4096,
+    "Table": "Orders",
+    "ForeignTable": "Bids",
+    "Fields": [
+      {
+        "Name": "OrderID",
+        "ForeignName": "OrderID"
+      }
+    ]
+  }
+}

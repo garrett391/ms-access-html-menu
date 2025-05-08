@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "CarriersOrders",
+    "Attributes": 0,
+    "Table": "Carriers",
+    "ForeignTable": "Orders",
+    "Fields": [
+      {
+        "Name": "CarrierID",
+        "ForeignName": "CarrierID"
+      }
+    ]
+  }
+}

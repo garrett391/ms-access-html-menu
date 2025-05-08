@@ -1,0 +1,5 @@
+﻿CREATE TABLE [Status] (
+  [StatusID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [Status] VARCHAR (255),
+  [Rank] LONG
+)

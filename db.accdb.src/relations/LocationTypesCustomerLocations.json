@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "LocationTypesCustomerLocations",
+    "Attributes": 0,
+    "Table": "LocationTypes",
+    "ForeignTable": "CustomerLocations",
+    "Fields": [
+      {
+        "Name": "LocationTypeID",
+        "ForeignName": "LocationTypeID"
+      }
+    ]
+  }
+}

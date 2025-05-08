@@ -1,0 +1,4 @@
+﻿CREATE TABLE [LocationTypes] (
+  [LocationTypeID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [LocationType] VARCHAR (255)
+)
