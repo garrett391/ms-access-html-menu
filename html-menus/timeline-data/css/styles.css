@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    background-color: #f0f0f0; /* Light gray */
+    font-family: Arial, sans-serif;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row; /* Change to horizontal */
+    justify-content: center;
+    gap: 40px; /* Space between events */
+    align-items: center;
+}
+
+
+.event {
+    display: flex;
+    flex-direction: column; /* Keep elements stacked */
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.event::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background-color: #007bff;
+    top: 50%;
+    left: 100%;
+}
+
+.event:last-child::after {
+    display: none; /* Hide the connector on the last item */
+}
+
+.date {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.description {
+    font-size: 16px;
+    color: #333;
+}

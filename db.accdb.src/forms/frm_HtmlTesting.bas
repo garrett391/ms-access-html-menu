@@ -9,9 +9,9 @@ Begin Form
     DatasheetGridlinesBehavior =3
     GridX =24
     GridY =24
-    Width =10020
+    Width =11880
     DatasheetFontHeight =11
-    ItemSuffix =3
+    ItemSuffix =4
     Right =26385
     Bottom =18945
     RecSrcDt = Begin
@@ -84,20 +84,30 @@ Begin Form
                     Enabled = NotDefault
                     OverlapFlags =85
                     Top =6840
-                    Width =10020
+                    Width =11880
                     Height =1800
                     Name ="EdgeBrowser"
                     HorizontalAnchor =2
                     VerticalAnchor =1
 
                     LayoutCachedTop =6840
-                    LayoutCachedWidth =10020
+                    LayoutCachedWidth =11880
                     LayoutCachedHeight =8640
                     ScrollBarsVisible =2
+                End
+                Begin Edge
+                    OverlapFlags =85
+                    Width =11880
+                    Height =6240
+                    TabIndex =1
+                    Name ="EdgeBrowser1"
+
+                    LayoutCachedWidth =11880
+                    LayoutCachedHeight =6240
                 End
             End
         End
     End
 End
 CodeBehindForm
-' See "frm_HtmlMenu.cls"
+' See "frm_HtmlTesting.cls"
